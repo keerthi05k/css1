@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins" , sans-serif;
+}
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div img{
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+header {
+    margin: 25px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.head{
+    display: flex;
+    width: 60px;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+.nav-item a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+.button1{
+    background-color: #ffffff;
+    color: white;
+    padding: 15px 32px;
+    justify-content: end;
+    align-items: end;
+    margin-left: 950px;
+    font-size: 14px;
+
+}
+
+.login{
+    display: flex;
+    background-color: purple;
+    font-size: 16px;
+    padding: 5px 10px;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    font-weight:normal;
+}
+.purple{
+    background-color: plum;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 1487px;
+    height: 50px;
+}
+
+.container{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn-1{
+    font-size: 12px;
+    padding: 5px 29px;
+    border-radius: 14px;
+    color: white;
+    background-color: plum;
+    border:  solid 1px;
+}
+.btn-2{
+    font-size: 12px;
+    padding: 4px 29px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(193, 192, 193);
+    border:  solid 1px;
+      
+}
+.btn-3{
+    font-size: 12px;
+    padding: 4px 18px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(193, 192, 193);
+    border:  solid 1px;
+}
+.btn-4{
+    font-size: 12px;
+    padding: 4px 29px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(193, 192, 193);
+    border:  solid 1px;
+}
+.product-card {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin-left: 140px;
+   
+}
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-name {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: end;
+}
+
+.add-to-cart {
+    background-color: #ffffff;
+    color: plum;
+    border: solid 1px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: purple;
+}
+.spotlight{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.iframe{
+    align-items: end;
+    margin-left: 550px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#contact{
+    margin-left: 60px;
+    padding: 20px;
+}
+  
+  /* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-right: 100px;
+  }
+h4{
+    color: #969696;
+}
+
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+footer{
+    text-align: center;
+    color: rgb(153, 146, 146);
+    font-size: small;
+}
