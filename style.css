@@ -192,7 +192,7 @@ header {
 }
 
 .iframe{
-    align-items: end;
+    align-items: center;
     margin-left: 550px;
     margin-right: 200px;
     margin-top: 10px;
@@ -207,7 +207,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: plum;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -215,7 +215,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: purple;
 }
 #contact{
     margin-left: 60px;
@@ -230,12 +230,12 @@ input[type=submit]:hover {
     margin-right: 100px;
   }
 h4{
-    color: #969696;
+    color: #000000;
 }
 
   
   /* Create two columns that float next to eachother */
-  .column {
+.column {
     float: left;
     width: 50%;
     margin-top: 6px;
@@ -243,7 +243,7 @@ h4{
   }
   
   /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
